@@ -1,0 +1,4 @@
+Apache Derby Network Server - 10.2.1.7 - (453926) started and ready to accept connections on port 1527 at 2014-06-18 09:50:52.015 GMT 
+2014-06-18 09:50:52.218 GMT Thread[DRDAConnThread_3,5,main] (DATABASE = sample), (DRDAID = {1}), Database 'sample' not found.
+2014-06-18 09:50:57.937 GMT Thread[DRDAConnThread_3,5,main] (DATABASE = sample), (DRDAID = {2}), Database 'sample' not found.
+2014-06-18 09:51:04.750 GMT Thread[DRDAConnThread_3,5,main] (DATABASE = sample), (DRDAID = {3}), Database 'sample' not found.

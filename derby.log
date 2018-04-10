@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue May 19 23:40:39 IST 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-014d-6d5e-cb9a-000000a3bbb8 
+on database directory E:\Fiverr\denny\New_Sharelord Investment Journal\database\share_trading with class loader sun.misc.Launcher$AppClassLoader@11f1d25 
+Loaded from file:/E:/Fiverr/denny/Sharelord%20Investment%20Journal/Sharelord%20Investment%20Journal/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=E:\Fiverr\denny\New_Sharelord Investment Journal
+os.name=Windows 8
+os.arch=x86
+os.version=6.2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

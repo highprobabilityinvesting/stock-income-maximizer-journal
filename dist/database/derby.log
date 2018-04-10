@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Jun 18 15:38:56 IST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0146-ae73-636b-0000004138b8 
+on database directory F:\database\share_trading with class loader sun.misc.Launcher$AppClassLoader@9cab16 
+Loaded from file:/F:/database/
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.7.0-ea-b20
+user.dir=F:\database
+os.name=Windows XP
+os.arch=x86
+os.version=5.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
