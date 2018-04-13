@@ -154,7 +154,7 @@ public class ViewTrade extends javax.swing.JFrame {
                     lblSoldPrice.setText("N/A");
                 }
 
-                lblpprofit.setText("$" + String.format("%,.2f", rs.getDouble("Stock_Sold_Price") - (rs.getDouble("Break_Even") + (rs.getDouble("Brokerage") / (rs.getInt("Stock"))))));
+                lblpprofit.setText("$" + String.format("%,.2f", rs.getDouble("Strike_Price_CO") - (rs.getDouble("Break_Even") + (rs.getDouble("Brokerage") / (rs.getInt("Stock"))))));
                 lblploss.setText("$" + String.format("%,.2f", rs.getDouble("Strike_Price_PO") - rs.getDouble("Break_Even") - ((rs.getDouble("Brokerage") + brokerage) / rs.getInt("Stock"))));
                 brokerage = 0.0;
                 lblcurrbrkevent.setText("$" + String.format("%,.2f", rs.getDouble("Break_Even")));
@@ -172,7 +172,7 @@ public class ViewTrade extends javax.swing.JFrame {
 
                 lblcoyield.setText(String.format("%.2f", (rs.getDouble("Premium_CO") / rs.getDouble("Stock_Purchase_Price")) * 100) + "%");
                 lblcolleryield.setText(String.format("%.2f", ((rs.getDouble("Premium_CO") - rs.getDouble("Premium_PO")) / rs.getDouble("Stock_Purchase_Price")) * 100) + "%");
-                lblrisk.setText(String.format("%.2f", ((rs.getDouble("Break_Even") - rs.getDouble("Strike_Price_PO")) / rs.getDouble("Break_Even")) * 100) + "%");
+                lblrisk.setText(String.format("%.2f", ((rs.getDouble("Break_Even") - rs.getDouble("Strike_Price_PO")) / rs.getDouble("Stock_Purchase_Price")) * 100) + "%");
                 txtComment.setText(rs.getString("Comment"));
             }
 
@@ -710,7 +710,7 @@ public class ViewTrade extends javax.swing.JFrame {
                                                     .addComponent(lblstock)
                                                     .addComponent(lblSoldPrice)))
                                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addGap(106, 106, 106)
+                                                .addGap(101, 101, 101)
                                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                     .addComponent(jLabel27)
                                                     .addComponent(jLabel26))
@@ -1007,5 +1007,5 @@ public class ViewTrade extends javax.swing.JFrame {
     private javax.swing.JTextArea txtComment;
     private javax.swing.JTextField txtbrokerage;
     // End of variables declaration//GEN-END:variables
-    
+    private javax.swing.JLabel totalbrokeragecost;
 }
