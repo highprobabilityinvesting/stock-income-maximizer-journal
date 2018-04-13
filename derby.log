@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Tue May 19 23:40:39 IST 2015:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-014d-6d5e-cb9a-000000a3bbb8 
-on database directory E:\Fiverr\denny\New_Sharelord Investment Journal\database\share_trading with class loader sun.misc.Launcher$AppClassLoader@11f1d25 
-Loaded from file:/E:/Fiverr/denny/Sharelord%20Investment%20Journal/Sharelord%20Investment%20Journal/lib/derby.jar
+Fri Apr 13 21:40:07 AEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0162-bece-33db-00000eb3dd68 
+on database directory C:\stock-income-maximizer-journal\database\share_trading with class loader sun.misc.Launcher$AppClassLoader@511d50c0 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_161/db/lib/derby.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.7.0_45-b18
-user.dir=E:\Fiverr\denny\New_Sharelord Investment Journal
-os.name=Windows 8
-os.arch=x86
-os.version=6.2
+java.runtime.version=1.8.0_161-b12
+user.dir=C:\stock-income-maximizer-journal
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
